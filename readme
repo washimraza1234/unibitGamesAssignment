@@ -1,0 +1,9 @@
+The findCombinations method takes an array of integers (nums) and a target value as input. It iterates through the array using nested loops to find pairs of integers whose sum equals the target value. 
+These pairs are stored in a list called combinations. Finally, the combinations list is converted to a 2D array (result) and returned.
+
+The findCombinationsForDoubleTarget method is similar to findCombinations but it finds combinations of four elements that sum up to the double target value. 
+It uses nested loops to iterate through all possible combinations of four elements in the array. The combinations that meet the condition are stored in the combinations list, which is then converted to a 2D array (result) and returned.
+
+The main method serves as the entry point of the program. It initializes the nums array and the target value.
+The merged array is printed as a single line.
+The findCombinationsForDoubleTarget method is called with the merged array and the target value multiplied by 2 (double target value). The resulting combinations are stored in the combinationsForDoubleTarget variable and printed.
